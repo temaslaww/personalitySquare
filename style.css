@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+               Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
 .bg {
@@ -464,4 +466,5 @@ input::placeholder {
   .character-description-content p {
     font-size: 16px;
   }
+
 }
