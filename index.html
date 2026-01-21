@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Квадрат Личности</title>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="main">
+        <h2>РАССЧИТАЙТЕ СВОЙ</h2>
+        <h1>КВАДРАТ ЛИЧНОСТИ</h1>
+        <div class="osn">
+            <div class="left">
+                <input type="text" placeholder="ДД.ММ.ГГГГ" id="dateInput" maxlength="10">
+                <div class="second-line"></div>
+                <button id="butt">Рассчитать</button>
+            </div>
+            <div class="wrapper">
+                <div class="info"></div>
+                <div class="matrix">
+                    <div class="num">Характер<div class="cell"></div></div>
+                    <div class="num">Энергия<div class="cell"></div></div>
+                    <div class="num">Здоровье<div class="cell"></div></div>
+                    <div class="num">Удачливость<div class="cell"></div></div>
+                    <div class="num">Интуиция<div class="cell"></div></div>
+                    <div class="num">Чувство долга<div class="cell"></div></div>
+                    <div class="num">Анализ<div class="cell"></div></div>
+                    <div class="num">Труд<div class="cell"></div></div>
+                    <div class="num">Память<div class="cell"></div></div>
+                </div>
+            </div>
+            
+    </div>
+     <div class="character-description-container">
+            <h3>Описание характера</h3>
+            <div class="character-description-content">
+                <p id="character-description-text">Введите дату и нажмите "Рассчитать", чтобы узнать описание вашего характера.</p>
+                <form action="https://t.me/beautybarcentersochi" method="get">
+                    <button type="submit" class="redirect-btn">Перейти</button>
+                </form>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
